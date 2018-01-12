@@ -1,0 +1,12 @@
+# This is to yum repo file creation
+# the below file should be created in /etc/yum.repos.d
+# file name # yum.oel.repo
+
+[oel]
+name=oel
+baseurl=http://yum.oracle.com/​repo/​OracleLinux/​OL7/​MODRHCK/​x86_64
+enabled=1
+gpgcheck=0
+
+
+# yum list all

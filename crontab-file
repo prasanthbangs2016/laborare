@@ -1,0 +1,4 @@
+*/10 * * * * sh -x /boot/idle.sh &>/tmp/idle.out
+
+
+#note the idle.sh file should exit in /boot directory a
